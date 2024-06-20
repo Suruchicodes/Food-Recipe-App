@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function displayWelcomeMessage() {
     const welcomeMessageEl = document.getElementById('welcome-message');
-    const message = 'Welcome to your culinary adventure! Start exploring mouth-watering recipes or get a surprise meal suggestion!';
+    const message = 'Welcome to your culinary adventure! Start exploring mouth-watering recipes or get a random meal suggestion!';
     typeWriter(welcomeMessageEl, message, 0);
 }
 
